@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="backbone-fineuploader" default="install">
+    <target name="install">
+        <exec command="npm install -g grunt-cli bower" dir="." passthru="true"/>
+        <exec command="npm install" dir="." passthru="true"/>
+        <exec command="bower install" dir="." passthru="true"/>
+        <exec command="grunt" dir="." passthru="true"/>
+    </target>
+</project>

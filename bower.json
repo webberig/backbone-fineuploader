@@ -1,0 +1,20 @@
+{
+  "name": "backbone-fineuploader",
+  "version": "0.0.1",
+  "authors": [
+    "Mathieu Maes <mathieu@webberig.be>"
+  ],
+  "description": "Fineuploader support for backbone",
+  "license": "MIT",
+  "homepage": "http://www.webberig.be",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fineuploader-dist": "~5.0.7"
+  }
+}
